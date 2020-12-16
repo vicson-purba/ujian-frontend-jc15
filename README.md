@@ -38,19 +38,19 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 
 - pindah ke direktori *folder* hasil ```git clone``` dengan cara
 
-    ``` C:\data\alee> cd ujian-frontend-1504 ``` 
+    ``` C:\data\alee> cd ujian-frontend-jc15 ``` 
 
 - buatlah sebuah *branch* baru untuk tempat anda mengerjakan soal ujian
 
-    ``` C:\data\alee\ujian-frontend-1504> git checkout -b alee ```
+    ``` C:\data\alee\ujian-frontend-jc15> git checkout -b alee ```
 
 - *install* semua *dependencies* yang ada di dalam *project* hasil *clone* dari GitHub
     
-    ``` C:\data\alee\ujian-frontend-1504> npm install```
+    ``` C:\data\alee\ujian-frontend-jc15> npm install```
 
 - bukalah *code editor* anda atau *vscode* : 
 
-    ``` C:\data\alee\ujian-frontend-1504> code . ```
+    ``` C:\data\alee\ujian-frontend-jc15> code . ```
 
 - pastikan anda berada di-*branch* yang baru anda buat dengan cara lihat dipojok kiri bawah *vscode* dan anda akan melihat nama *branch* yang baru anda buat atau anda bisa menggunakan perintah : ``` git branch ``` di terminal atau *cmd* untuk melihat semua daftar *branch* yang ada di *folder project* anda, *branch* yang dipakai saat ini ditandai dengan warna hijau dan *nama-*branch*
 
@@ -64,16 +64,16 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 - sebelum melakukan *pull request* ke repositori pusat (respositori asal), pastikan bahwa jawaban sudah sesuai dengan soal yang telah diberikan
 - pastikan bahwa anda telah menyimpan semua perubahan/*history* di *git*, untuk memastikannya lakukan perintah berikut ini di terminal/*cmd*
 
-    ```C:\data\alee\ujian-frontend-1504> git status ```
+    ```C:\data\alee\ujian-frontend-jc15> git status ```
 
 - jika *local repository* anda sudah bersih maka lanjut ke *step* berikutnya. jika masih ada file yang belum di *track* (*untrack files*) atau preubahan (*changes*) yang belum di *commit*, maka lakukan *commit* terlebih dahulu
 
-    ``` C:\data\alee\ujian-frontend-1504> git add . ``` <br>
-    ``` C:\data\alee\ujian-frontend-1504> git commit -m "masukan pesan commit anda" ```
+    ``` C:\data\alee\ujian-frontend-jc15> git add . ``` <br>
+    ``` C:\data\alee\ujian-frontend-jc15> git commit -m "masukan pesan commit anda" ```
 
 - *push branch* yang berisi hasil ujian ke GitHub (*forked repository*)
 
-    ``` C:\data\alee\ujian-frontend-1504> git push origin alee ```
+    ``` C:\data\alee\ujian-frontend-jc15> git push origin alee ```
 
 - buka GitHub dan lihat repositori hasil *forked* anda. **PASTIKAN!** bahwa *branch* yang berisi hasil ujian anda sudah ada di GitHub
 - jika sudah ada, maka akan muncul warning untuk melakukan *pull request*
