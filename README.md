@@ -20,8 +20,8 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 - siswa boleh membuka *website* dan referensi lainnya selama ujian sesuai ketentuan yang berlaku
 - jawaban soal akan dikumpulkan di dalam repositori ini dengan sistem ***pull request*** dan siswa wajib mengirim ***link*** dari ***forked repositoy*** ke alamat email berikut ini :<br>
 
-    to : operational_jkt@purwadhika.com <br>
-    subject : JCWM-1504-FRONTEND
+    to : operational@purwadhika.com <br>
+    subject : JCWM-15-FRONTEND
 
 ## B. Exam Setup Guide
 - sebelum mengerjakan soal, lakukan ***fork*** untuk repositori ini
@@ -83,7 +83,7 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 - lakukan *pull request* dan **PASTIKAN!** bahwa
     1. **HEAD repository** berasal dari repositori kalian dan **compare branch** berasal dari *branch* tempat anda mengerjakan soal (**branch yang baru di push**), **BASE respository** menuju repositori asal dan **compare branch** pilih sesuai nama kalian
     2. beri informasi *pull request* berupa : nama-program (**PENTING!**)
-    <br>e.x. : ALEE-JCWM-1504
+    <br>e.x. : ALEE-JCWM-15
     3. jika semua informasi sudah sesuai lakukan *pull request* dengan menekan tombol *create pull request*
     
     ![guide_4](https://dm2302files.storage.live.com/y4mKybOAijDgpGP2j84PvSlei8brxPrTsI4Jf8P3BCXWOaPxEbnk5Q0-8bQ3SHGOqsZn3VLR8WkK9MgX8QB6pKSwHgbRRGqy2YOQjLm9BTbIJrdSwk3FerqDR7P3qYthjL1E0xhVgaU6L1Uwg6bSqvneK5rldYeLTIYLMKfkpD-49n4DRx_Jv-uP8ZqwexPw7lU?width=928&height=430&cropmode=none)
