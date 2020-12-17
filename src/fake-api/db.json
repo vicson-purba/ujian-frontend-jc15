@@ -1,0 +1,291 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "wido@gmail.com",
+      "password": "qwerty"
+    },
+    {
+      "email": "w@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "email": "wido@mail.com",
+      "password": "Wicaksono@55",
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "category": "All"
+    },
+    {
+      "id": 1,
+      "category": "iPhone"
+    },
+    {
+      "id": 2,
+      "category": "Macbook"
+    },
+    {
+      "id": 3,
+      "category": "iPad"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike Air Brown",
+      "categoryID": 1,
+      "price": 1987000,
+      "stock": 2,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https://tse2.mm.bing.net/th?id=OIP.qjeyN-utHkfgvUDdTbI_ZQHaE8&pid=Api&f=1"
+    },
+    {
+      "id": 2,
+      "name": "Nike Air Jordan",
+      "categoryID": 1,
+      "price": 2543000,
+      "stock": 9,
+      "image": "https://images.the-house.com/nike-harbor-sb-shoes-blk-white-14-1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Nike Revolt",
+      "categoryID": 1,
+      "price": 1765000,
+      "stock": 6,
+      "image": "http://images.the-house.com/fallen-slash-sh-blkgldrobertoaleman-13.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Nike Queen",
+      "categoryID": 2,
+      "price": 2143000,
+      "stock": 7,
+      "image": "https://images.the-house.com/osiris-uprise-sh-blkwhtchar-14.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "name": "iPhone 8",
+      "price": 5000000,
+      "userID": 2,
+      "qty": 1,
+      "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-8-gold_4_1_2.jpg",
+      "id": 1
+    },
+    {
+      "name": "iPhone 12",
+      "price": 8000000,
+      "userID": 2,
+      "qty": 1,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71E5zB1qbIL._SL1500_.jpg",
+      "id": 2
+    }
+  ],
+  "transaction": [
+    {
+      "date": "14-12-2020",
+      "total": 110000000,
+      "items": [
+        {
+          "name": "iPhone 8",
+          "price": 5000000,
+          "userID": 2,
+          "qty": 6,
+          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-8-gold_4_1_2.jpg",
+          "id": 1
+        },
+        {
+          "name": "iPhone 12",
+          "price": 8000000,
+          "userID": 2,
+          "qty": 4,
+          "image": "https://images-na.ssl-images-amazon.com/images/I/71E5zB1qbIL._SL1500_.jpg",
+          "id": 2
+        },
+        {
+          "name": "Macbook Pro",
+          "price": 12000000,
+          "userID": 2,
+          "qty": 4,
+          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/m/a/macbook-pro-2020-2port-spacegray-1_8_1.jpg",
+          "id": 3
+        }
+      ],
+      "userID": 2,
+      "id": 1
+    },
+    {
+      "date": "14-12-2020",
+      "total": 39000000,
+      "items": [
+        {
+          "name": "iPhone 8",
+          "price": 5000000,
+          "userID": 2,
+          "qty": 3,
+          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-8-gold_4_1_2.jpg",
+          "id": 6
+        },
+        {
+          "name": "iPhone 12",
+          "price": 8000000,
+          "userID": 2,
+          "qty": 3,
+          "image": "https://images-na.ssl-images-amazon.com/images/I/71E5zB1qbIL._SL1500_.jpg",
+          "id": 7
+        }
+      ],
+      "userID": 2,
+      "id": 2
+    },
+    {
+      "date": "14-12-2020",
+      "total": 24000000,
+      "items": [
+        {
+          "name": "iPhone 12",
+          "price": 8000000,
+          "userID": 2,
+          "qty": 3,
+          "image": "https://images-na.ssl-images-amazon.com/images/I/71E5zB1qbIL._SL1500_.jpg",
+          "id": 6
+        }
+      ],
+      "userID": 2,
+      "id": 3
+    },
+    {
+      "date": "14-12-2020",
+      "total": 14000000,
+      "items": [
+        {
+          "name": "iPad Pro",
+          "price": 14000000,
+          "userID": 2,
+          "qty": 1,
+          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/ipad-air-3-wi-fi-space-gray.jpg",
+          "id": 6
+        }
+      ],
+      "userID": 2,
+      "id": 4
+    },
+    {
+      "date": "16-12-2020",
+      "total": 10000000,
+      "items": [
+        {
+          "name": "iPhone 8",
+          "price": 5000000,
+          "userID": 2,
+          "qty": 2,
+          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-8-gold_4_1_2.jpg",
+          "id": 1
+        }
+      ],
+      "userID": 2,
+      "id": 5
+    },
+    {
+      "date": "16-12-2020",
+      "total": 86000000,
+      "items": [
+        {
+          "name": "iPhone X",
+          "price": 7000000,
+          "userID": 2,
+          "qty": 2,
+          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-x-space-grey_2_3_4_1.jpg",
+          "id": 1
+        },
+        {
+          "name": "iPad Pro",
+          "price": 14000000,
+          "userID": 2,
+          "qty": 2,
+          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/ipad-air-3-wi-fi-space-gray.jpg",
+          "id": 2
+        },
+        {
+          "name": "Macbook Pro M1",
+          "price": 22000000,
+          "userID": 2,
+          "qty": 2,
+          "image": "https://cdn.shopify.com/s/files/1/1525/0840/products/MacBook_pro_16inch_silver_pdp_US_1_2_dea9c346-33d3-4fbc-8f82-323b12519239_720x.jpg?v=1573677443",
+          "id": 3
+        }
+      ],
+      "userID": 2,
+      "id": 6
+    },
+    {
+      "date": "16-12-2020",
+      "total": 10000000,
+      "items": [
+        {
+          "name": "iPhone 8",
+          "price": 5000000,
+          "userID": 2,
+          "qty": 2,
+          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-8-gold_4_1_2.jpg",
+          "id": 1
+        }
+      ],
+      "userID": 2,
+      "id": 7
+    },
+    {
+      "date": "16-12-2020",
+      "total": 12000000,
+      "items": [
+        {
+          "name": "iPhone 8",
+          "price": 5000000,
+          "userID": 2,
+          "qty": 1,
+          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-8-gold_4_1_2.jpg",
+          "id": 1
+        },
+        {
+          "name": "iPhone X",
+          "price": 7000000,
+          "userID": 2,
+          "qty": 1,
+          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-x-space-grey_2_3_4_1.jpg",
+          "id": 2
+        }
+      ],
+      "userID": 2,
+      "id": 8
+    },
+    {
+      "date": "16-12-2020",
+      "total": 18000000,
+      "items": [
+        {
+          "name": "iPhone 8",
+          "price": 5000000,
+          "userID": 2,
+          "qty": 2,
+          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-8-gold_4_1_2.jpg",
+          "id": 1
+        },
+        {
+          "name": "iPhone 12",
+          "price": 8000000,
+          "userID": 2,
+          "qty": 1,
+          "image": "https://images-na.ssl-images-amazon.com/images/I/71E5zB1qbIL._SL1500_.jpg",
+          "id": 2
+        }
+      ],
+      "userID": 2,
+      "id": 9
+    }
+  ]
+}
